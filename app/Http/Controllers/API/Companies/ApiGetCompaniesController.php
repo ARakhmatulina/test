@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\API;
+namespace App\Http\Controllers\API\Companies;
 
 use App\Domains\Company\Services\ApiGetCompaniesService;
 use App\Http\Controllers\Controller;

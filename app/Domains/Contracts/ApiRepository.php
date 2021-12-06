@@ -5,7 +5,7 @@ namespace App\Domains\Contracts;
 interface ApiRepository
 {
 
-    public function getAll();
+    public function getAll(array $filters = []);
 
     public function getById(int $id);
 }
