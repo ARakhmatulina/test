@@ -1,22 +1,22 @@
 <?php
 
-namespace App\Http\Controllers\API;
+namespace App\Http\Controllers\API\Categories;
 
-use App\Domains\Company\Services\ApiGetCompanyService;
+use App\Domains\Category\Services\ApiGetCategoryService;
 use App\Http\Controllers\Controller;
-use App\Models\Company;
+use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class ApiGetCompanyController extends Controller
+class ApiGetCategoryController extends Controller
 {
 
-    public function __invoke(Request $request, Company $company): Response
+    public function __invoke(Request $request, Category $category) : Response
     {
         try {
-            $apiGetCompanyService = new ApiGetCompanyService($company->id);
+            $apiGetCategoryService = new ApiGetCategoryService($category->id);
             return response(
-                $apiGetCompanyService->handle()
+                $apiGetCategoryService->handle()
             );
         }
         catch (\Exception $exception) {
