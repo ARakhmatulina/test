@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domains\Contracts;
+namespace App\Contracts;
 
 interface ApiService
 {
