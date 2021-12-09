@@ -10,4 +10,7 @@ class ApiRoutes
     const API_GET_CATEGORIES_ROUTE = 'categories';
     const API_GET_CATEGORY_ROUTE = 'category';
 
+    const API_GET_DISHES_ROUTE = 'dishes';
+    const API_GET_DISH_ROUTE = 'dish';
+
 }
