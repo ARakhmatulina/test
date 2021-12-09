@@ -5,7 +5,7 @@ namespace App\Domains\Company\Services;
 use App\Domains\Company\DTOs\CompanyDTO;
 use App\Domains\Company\Entities\CompanyEntity;
 use App\Domains\Company\Repositories\ApiCompaniesRepository;
-use App\Domains\Contracts\ApiService;
+use App\Contracts\ApiService;
 
 class ApiGetCompanyService implements ApiService
 {

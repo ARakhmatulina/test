@@ -4,7 +4,7 @@ namespace App\Domains\Category\Services;
 
 use App\Domains\Category\DTOs\CategoryDTO;
 use App\Domains\Category\Repositories\ApiCategoriesRepository;
-use App\Domains\Contracts\ApiService;
+use App\Contracts\ApiService;
 
 class ApiGetCategoriesService implements ApiService
 {

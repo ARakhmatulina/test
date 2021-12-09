@@ -4,7 +4,7 @@ namespace App\Domains\Category\Repositories;
 
 use App\Domains\Category\DTOs\CategoryDTO;
 use App\Domains\Category\Entities\CategoryEntity;
-use App\Domains\Contracts\ApiRepository;
+use App\Contracts\ApiRepository;
 use App\Models\Category;
 use Illuminate\Database\Eloquent\Builder;
 
