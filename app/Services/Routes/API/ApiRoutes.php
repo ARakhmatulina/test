@@ -13,4 +13,6 @@ class ApiRoutes
     const API_GET_DISHES_ROUTE = 'dishes';
     const API_GET_DISH_ROUTE = 'dish';
 
+    const API_GET_ORDER_ROUTE = 'order';
+
 }

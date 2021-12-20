@@ -8,6 +8,7 @@ use App\Http\Controllers\API\Companies\ApiGetCompaniesController;
 use App\Http\Controllers\API\Companies\ApiGetCompanyController;
 use App\Http\Controllers\API\Dishes\ApiGetDishController;
 use App\Http\Controllers\API\Dishes\ApiGetDishesController;
+use App\Http\Controllers\API\Orders\ApiGetOrderController;
 use App\Services\Routes\RoutesRegistrar;
 use Illuminate\Support\Facades\Route;
 
@@ -30,5 +31,8 @@ class ApiRoutesProvider implements RoutesRegistrar
             ->name(ApiRoutes::API_GET_DISHES_ROUTE);
         Route::get('dishes/{dish}', ApiGetDishController::class)
             ->name(ApiRoutes::API_GET_DISH_ROUTE);
+
+        Route::get('orders/{order}', ApiGetOrderController::class)
+            ->name(ApiRoutes::API_GET_ORDER_ROUTE);
     }
 }
