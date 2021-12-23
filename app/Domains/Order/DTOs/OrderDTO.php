@@ -6,6 +6,7 @@ use App\Domains\Company\DTOs\CompanyDTO;
 use App\Domains\Dish\DTOs\DishDTO;
 use App\Domains\Order\Entities\OrderEntity;
 use App\Models\Order;
+use Illuminate\Http\Request;
 
 class OrderDTO
 {
@@ -56,4 +57,5 @@ class OrderDTO
             'dishes' => $dishes
         ];
     }
+
 }

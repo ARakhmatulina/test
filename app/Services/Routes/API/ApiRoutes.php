@@ -14,5 +14,6 @@ class ApiRoutes
     const API_GET_DISH_ROUTE = 'dish';
 
     const API_GET_ORDER_ROUTE = 'order';
+    const API_CREATE_ORDER_ROUTE = 'create_order';
 
 }
